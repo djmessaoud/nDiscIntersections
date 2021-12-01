@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// Task : https://app.codility.com/programmers/task/number_of_disc_intersections/
+
 namespace Codiltiy
 {
    public class point:IComparable<point> //Class of points or disks that is comparable
