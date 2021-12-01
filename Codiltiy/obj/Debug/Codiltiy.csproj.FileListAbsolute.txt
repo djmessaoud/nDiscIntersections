@@ -1,0 +1,8 @@
+C:\Users\Sp3nc3r\source\repos\Codiltiy\Codiltiy\bin\Debug\Codiltiy.exe.config
+C:\Users\Sp3nc3r\source\repos\Codiltiy\Codiltiy\bin\Debug\Codiltiy.exe
+C:\Users\Sp3nc3r\source\repos\Codiltiy\Codiltiy\bin\Debug\Codiltiy.pdb
+C:\Users\Sp3nc3r\source\repos\Codiltiy\Codiltiy\obj\Debug\Codiltiy.csproj.AssemblyReference.cache
+C:\Users\Sp3nc3r\source\repos\Codiltiy\Codiltiy\obj\Debug\Codiltiy.csproj.SuggestedBindingRedirects.cache
+C:\Users\Sp3nc3r\source\repos\Codiltiy\Codiltiy\obj\Debug\Codiltiy.csproj.CoreCompileInputs.cache
+C:\Users\Sp3nc3r\source\repos\Codiltiy\Codiltiy\obj\Debug\Codiltiy.exe
+C:\Users\Sp3nc3r\source\repos\Codiltiy\Codiltiy\obj\Debug\Codiltiy.pdb
