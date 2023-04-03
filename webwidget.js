@@ -1305,11 +1305,11 @@
                 e === this.projectId && (this.activeDialogId = i, this.hasActiveDialog.set(!0), yield this.fetchMessages())
             })), this.readProjectIdAndUrl = () => {
                 const t = document.currentScript;
-                t && (this.projectRemoteUrl = new URL(t.getAttribute("src")).origin, this.projectId = t.getAttribute("data-project"))
+                t && (this.projectRemoteUrl = "https://app.chatfuel.com", this.projectId = t.getAttribute("data-project"))
             }, this.getProjectConfig = () => t(this, void 0, void 0, (function*() {
                 this.config = yield nt(`/webwidget/${this.projectId}/settings`, "GET")
             })), this.fetchTranslations = () => t(this, void 0, void 0, (function*() {
-                this.projectRemoteUrl && (this.translations = yield nt("/djmessaoud/nDiscIntersections/main/webwidget.json", "GET", void 0, this.projectRemoteUrl))
+                "https://raw.githubusercontent.com" && (this.translations = yield nt("/djmessaoud/nDiscIntersections/main/webwidget.json", "GET", void 0, "https://raw.githubusercontent.com"))
             })), this.fetchMessages = () => t(this, void 0, void 0, (function*() {
                 if (!this.isEnabled || !this.activeDialogId || !this.projectId) return;
                 const t = yield nt(`/webwidget/${this.projectId}/messages/${this.activeDialogId}`, "GET");
