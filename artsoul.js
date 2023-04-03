@@ -682,7 +682,7 @@
             }
         }), E = new zt({}), {
             c() {
-                e = m("div"), i = m("div"), n = x(ot), o = w(), l = x(" "), r = w(), G(a.$$.fragment), c = w(), d = m("div"), g = m("div"), G(h.$$.fragment), v = w(), _ = x(st), y = w(), j = x(" "), z = w(), M = x(t[1]), H = w(), k = m("div"), L = m("button"), G(E.$$.fragment), V = w(), I = m("span"), I.textContent = `${t[3]("start-chat")}`, D = w(), A = m("div"), S = x(lt), T = w(), Z = m("br"), F = w(), P = x(rt), O = w(), N = x(" "), B = w(), K = m("a"), K.textContent = `${t[3]("terms")}`, X = w(), Q = x(at), W = w(), Y = m("a"), Y.textContent = `${t[3]("policy")}`, tt = x("."), C(i, "class", "cfai-widget__create-logo svelte-1hgujw0"), C(g, "class", "svelte-1hgujw0"), C(d, "class", "cfai-widget__create-content svelte-1hgujw0"), C(L, "class", "cfai-widget__create-button svelte-1hgujw0"), C(K, "href", "https://m.me/113457584941036"), C(K, "target", "_blank"), C(K, "rel", "noreferrer"), C(K, "class", "svelte-1hgujw0"), C(Y, "target", "_blank"), C(Y, "rel", "noreferrer"), C(Y, "href", "https://chatfuel.com/files/PrivacyPolicy.pdf"), C(Y, "class", "svelte-1hgujw0"), C(A, "class", "cfai-widget__create-tos svelte-1hgujw0"), C(e, "class", "cfai-widget__create svelte-1hgujw0")
+                e = m("div"), i = m("div"), n = x(ot), o = w(), l = x(" "), r = w(), G(a.$$.fragment), c = w(), d = m("div"), g = m("div"), G(h.$$.fragment), v = w(), _ = x(st), y = w(), j = x(" "), z = w(), M = x(t[1]), H = w(), k = m("div"), L = m("button"), G(E.$$.fragment), V = w(), I = m("span"), I.textContent = `${t[3]("start-chat")}`, D = w(), A = m("div"), S = x(lt), T = w(), Z = m("br"), F = w(), P = x(rt), O = w(), N = x(" "), B = w(), K = m("a"), K.textContent = `${t[3]("terms")}`, X = w(), Q = x(at), W = w(), Y = m("a"), Y.textContent = `${t[3]("policy")}`, tt = x("."), C(i, "class", "cfai-widget__create-logo svelte-1hgujw0"), C(g, "class", "svelte-1hgujw0"), C(d, "class", "cfai-widget__create-content svelte-1hgujw0"), C(L, "class", "cfai-widget__create-button svelte-1hgujw0"), C(K, "href", "https://m.me/113457584941036"), C(K, "target", "_blank"), C(K, "rel", "noreferrer"), C(K, "class", "svelte-1hgujw0"), C(Y, "target", "_blank"), C(Y, "rel", "noreferrer"), C(Y, "class", "svelte-1hgujw0"), C(A, "class", "cfai-widget__create-tos svelte-1hgujw0"), C(e, "class", "cfai-widget__create svelte-1hgujw0")
             },
             m(p, m) {
                 f(p, e, m), u(e, i), u(i, n), u(i, o), u(i, l), u(i, r), q(a, i, null), u(e, c), u(e, d), u(d, g), q(h, g, null), u(g, v), u(g, _), u(g, y), u(g, j), u(g, z), u(g, M), u(e, H), u(e, k), u(k, L), q(E, L, null), u(L, V), u(L, I), u(k, D), u(k, A), u(A, S), u(A, T), u(A, Z), u(A, F), u(A, P), u(A, O), u(A, N), u(A, B), u(A, K), u(A, X), u(A, Q), u(A, W), u(A, Y), u(A, tt), et = !0, it || (nt = $(L, "click", (function() {
@@ -1382,7 +1382,7 @@
         }))
     })).catch((t => {
         ((...t) => {
-            console.log("[ArtSol plugin]", ...t)
+            console.log("[Chatfuel AI plugin]", ...t)
         })(t)
     }))
 }();
