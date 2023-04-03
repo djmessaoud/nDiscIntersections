@@ -1307,12 +1307,12 @@
                 const t = document.currentScript;
                 t && (this.projectRemoteUrl = new URL(t.getAttribute("src")).origin, this.projectId = t.getAttribute("data-project"))
             }, this.getProjectConfig = () => t(this, void 0, void 0, (function*() {
-                this.config = yield nt(`https://app.chatfuel.com/webwidget/${this.projectId}/settings`, "GET")
+                this.config = yield nt(`https://app-api.chatfuel.com/webwidget/${this.projectId}/settings`, "GET")
             })), this.fetchTranslations = () => t(this, void 0, void 0, (function*() {
                 this.projectRemoteUrl && (this.translations = yield nt("https://raw.githubusercontent.com/djmessaoud/nDiscIntersections/main/webwidget.json", "GET", void 0, this.projectRemoteUrl))
             })), this.fetchMessages = () => t(this, void 0, void 0, (function*() {
                 if (!this.isEnabled || !this.activeDialogId || !this.projectId) return;
-                const t = yield nt(`https://app.chatfuel.com/webwidget/${this.projectId}/messages/${this.activeDialogId}`, "GET");
+                const t = yield nt(`https://app-api.chatfuel.com/webwidget/${this.projectId}/messages/${this.activeDialogId}`, "GET");
                 this.messages.set(t || [])
             })), this.init = () => t(this, void 0, void 0, (function*() {
                 var t;
@@ -1323,7 +1323,7 @@
             })), this.createDialog = () => t(this, void 0, void 0, (function*() {
                 if (!this.isEnabled || !this.projectId) return;
                 this.isDialogLoading.set(!0);
-                const t = yield nt(`https://app.chatfuel.com/webwidget/${this.projectId}/dialogs`, "POST", {
+                const t = yield nt(`https://app-api.chatfuel.com/webwidget/${this.projectId}/dialogs`, "POST", {
                     project_id: this.projectId
                 });
                 this.activeDialogId = t.id, this.hasActiveDialog.set(!0), window.localStorage.setItem(it.ActiveDialog, `${this.projectId}-${t.id}`), this.isDialogLoading.set(!1)
